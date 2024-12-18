@@ -3,11 +3,11 @@
 #include <DHTesp.h>
 
 // --- Configurações Wi-Fi ---
-const char* ssid = "StarLink";      // Substitua pelo SSID da sua rede Wi-Fi
-const char* password = "ab88718849"; // Substitua pela senha da sua rede Wi-Fi
+const char* ssid = "SSID";      // Substitua pelo SSID da sua rede Wi-Fi
+const char* password = "WIFI_PASSWORD"; // Substitua pela senha da sua rede Wi-Fi
 
 // --- Configurações MQTT ---
-const char* mqtt_server = "mqtt.tecnoaves.com"; // Substitua pelo endereço do broker MQTT
+const char* mqtt_server = "BROCKER_MQTT"; // Substitua pelo endereço do broker MQTT
 const char* device_id = "esp32_01";            // Identificador único do dispositivo
 const char* topic_sensor = "boards/esp32_01/sensor";
 const char* topic_button = "boards/esp32_01/button";
